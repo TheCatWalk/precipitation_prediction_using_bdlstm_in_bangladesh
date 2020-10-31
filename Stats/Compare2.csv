@@ -1,0 +1,15 @@
+Reference,Model,MAE,RMSE
+\citep{Cui},3-layers LSTM,2.483,
+,3-layers LSTM + 1-layer DNN,2.63,
+,3-layers BDLSTM,2.476,
+,SBU-LSTMs: 1-layer BDLSTM + 3 middle BDLSTM layers + 1-layer LSTM,2.549,
+\citep{Zhang3},K-Means Clustering with LSTM,,7.45
+,K-Means Clustering with Deep belief network (DBN),,7.56
+,"K-Means Clustering with Frequency matching method	",,8.05
+,K-Means Clustering with Stepwise linear regression,,7.43
+,K-Means Clustering with Support vector machine (SVM),,7.43
+\citep{Rasel},SVR with only Rainfall Dataset,1.7,27.68
+,ANN with only Rainfall Dataset,10.87,31.97
+,SVR with combined Rainfall and Temperature Dataset,0.17,27.6
+,ANN with combined Rainfall and Temperature Dataset,11.33,27.53
+Our Model,3-layers BDLSTM with only Rainfall Dataset,2.275,1.178
