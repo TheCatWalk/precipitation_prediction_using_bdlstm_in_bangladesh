@@ -1,0 +1,6 @@
+Accuracy: 0.640264
+Precision: 0.875776
+Recall: 0.640264
+F1 score: 0.689128
+MSE: 11.030956
+MAE: 2.183188
